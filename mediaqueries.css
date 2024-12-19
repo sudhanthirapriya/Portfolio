@@ -100,4 +100,17 @@
   .text-container {
     text-align: justify;
   }
+  .right-side-tab {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 90%;
+    max-width: 300px;
+    transform: none;
+    border-radius: 10px;
+  }
+  .right-side-tab:hover {
+    width: 100%;
+    max-width: 350px;
+  }
 }
