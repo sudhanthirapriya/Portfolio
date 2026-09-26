@@ -4,16 +4,16 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sudhanthirapriya S — Machine Learning Engineer</title>
+    <title>Sudhanthirapriya Sundaram — Machine Learning Engineer</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
-    <meta name="description" content="Sudhanthirapriya S — Machine Learning Engineer building production RAG, OCR, and recommendation systems.">
+    <meta name="description" content="Sudhanthirapriya Sundaram — Machine Learning Engineer building production RAG, OCR, and recommendation systems.">
   </head>
   <body>
     <nav id="desktop-nav">
-      <div class="logo">Sudhanthirapriya S</div>
+      <div class="logo">Sudhanthirapriya Sundaram</div>
       <div>
         <ul class="nav-links">
           <li><a href="#about">About</a></li>
@@ -24,7 +24,7 @@
       </div>
     </nav>
     <nav id="hamburger-nav">
-      <div class="logo">Sudhanthirapriya S</div>
+      <div class="logo">Sudhanthirapriya Sundaram</div>
       <div class="hamburger-menu">
         <div class="hamburger-icon" onclick="toggleMenu()">
           <span></span>
@@ -42,11 +42,11 @@
 
     <section id="profile">
       <div class="section__pic-container">
-        <img src="assets/profile.png" alt="Sudhanthirapriya S" class="profile-pic" />
+        <img src="assets/profile.png" alt="Sudhanthirapriya Sundaram" class="profile-pic" />
       </div>
       <div class="section__text">
         <p class="eyebrow">Machine Learning Engineer</p>
-        <h1 class="title">Sudhanthirapriya S</h1>
+        <h1 class="title">Sudhanthirapriya Sundaram</h1>
         <p class="section__text__p2">
           I build production AI systems — RAG pipelines, OCR at scale, and recommendation
           engines — for platforms real people use, not just notebooks.
@@ -183,51 +183,102 @@
 
       <div class="project-grid">
         <div class="project-card">
-          <p class="project-kicker">OCR · Election transparency</p>
-          <h3>Urimai</h3>
-          <p>Bilingual (Tamil + English) OCR pipeline for scanned candidate affidavits, reaching ~98% production accuracy, with cross-year candidate matching and deduplication.</p>
-          <div class="project-tags"><span class="tag">Cloud Vision</span><span class="tag">Gemini</span><span class="tag">OCR</span></div>
-          <a class="project-link" href="https://play.google.com/store/apps/details?id=com.urimaiapp&pcampaignid=web_share" target="_blank" rel="noopener">Live app →</a>
+          <img src="assets/Project urimai.png" alt="Urimai Project" class="project-img" />
+          <div class="project-content">
+            <p class="project-kicker">OCR · Election transparency</p>
+            <h3>Urimai</h3>
+            <p>Bilingual (Tamil + English) OCR pipeline for scanned candidate affidavits, reaching ~98% production accuracy, with cross-year candidate matching and deduplication.</p>
+            <div class="project-tags"><span class="tag">Cloud Vision</span><span class="tag">Gemini</span><span class="tag">OCR</span></div>
+            <a class="project-link" href="https://play.google.com/store/apps/details?id=com.urimaiapp&pcampaignid=web_share" target="_blank" rel="noopener">Live app →</a>
+          </div>
         </div>
 
         <div class="project-card">
-          <p class="project-kicker">RAG · EdTech</p>
-          <h3>Course Curator</h3>
-          <p>AI regulatory intelligence and curriculum recommendation platform. Built the Resource and Trend scoring services and hybrid vector + graph retrieval pipeline.</p>
-          <div class="project-tags"><span class="tag">Qdrant</span><span class="tag">Hybrid Retrieval</span></div>
-          <a class="project-link" href="https://coursecurator.in/" target="_blank" rel="noopener">Live site →</a>
+          <img src="assets/Project coursecurator.png" alt="Course Curator Project" class="project-img" />
+          <div class="project-content">
+            <p class="project-kicker">RAG · EdTech</p>
+            <h3>Course Curator</h3>
+            <p>AI regulatory intelligence and curriculum recommendation platform. Built the Resource and Trend scoring services and hybrid vector + graph retrieval pipeline.</p>
+            <div class="project-tags"><span class="tag">Qdrant</span><span class="tag">Hybrid Retrieval</span></div>
+            <a class="project-link" href="https://coursecurator.in/" target="_blank" rel="noopener">Live site →</a>
+          </div>
         </div>
 
         <div class="project-card">
-          <p class="project-kicker">Backend · Chatbot · Confidential client</p>
-          <h3>AI-Assisted Road &amp; Transport Planning Platform</h3>
-          <p>Flask APIs for chart analytics, a document-relevance classifier, and an LLM chatbot for natural-language queries over transport data and regulations.</p>
-          <div class="project-tags"><span class="tag">FAISS</span><span class="tag">Groq</span><span class="tag">Flask</span></div>
-          <span class="project-link disabled">Details on request</span>
+          <img src="assets/Project transport.jpeg" alt="Transport Planning Platform" class="project-img" />
+          <div class="project-content">
+            <p class="project-kicker">Backend · Chatbot · Confidential client</p>
+            <h3>AI-Assisted Road &amp; Transport Planning Platform</h3>
+            <p>Flask APIs for chart analytics, a document-relevance classifier, and an LLM chatbot for natural-language queries over transport data and regulations.</p>
+            <div class="project-tags"><span class="tag">FAISS</span><span class="tag">Groq</span><span class="tag">Flask</span></div>
+            <span class="project-link disabled">Details on request</span>
+          </div>
         </div>
 
         <div class="project-card">
-          <p class="project-kicker">LLM · MCP tool</p>
-          <h3>PDF Data Extractor Pro</h3>
-          <p>Privacy-first PDF-to-Excel extraction combining self-hosted LLM inference with rule-based table extraction. Being repackaged as an MCP server.</p>
-          <div class="project-tags"><span class="tag">Ollama</span><span class="tag">Camelot</span><span class="tag">MCP</span></div>
-          <a class="project-link" href="https://github.com/sudhanthirapriya?tab=repositories" target="_blank" rel="noopener">GitHub →</a>
+          <img src="assets/Project pdfextractor.png" alt="PDF Data Extractor Pro" class="project-img" />
+          <div class="project-content">
+            <p class="project-kicker">LLM · MCP tool</p>
+            <h3>PDF Data Extractor Pro</h3>
+            <p>Privacy-first PDF-to-Excel extraction combining self-hosted LLM inference with rule-based table extraction. Being repackaged as an MCP server.</p>
+            <div class="project-tags"><span class="tag">Ollama</span><span class="tag">Camelot</span><span class="tag">MCP</span></div>
+            <a class="project-link" href="https://github.com/sudhanthirapriya?tab=repositories" target="_blank" rel="noopener">GitHub →</a>
+          </div>
         </div>
 
         <div class="project-card">
-          <p class="project-kicker">Kaggle · Top ~19%</p>
-          <h3>Smartphone Addiction Prediction</h3>
-          <p>ROC-AUC 0.966 using a tuned 3-model gradient boosting ensemble (XGBoost, LightGBM, CatBoost). Ranked 693 of 3,561.</p>
-          <div class="project-tags"><span class="tag">XGBoost</span><span class="tag">LightGBM</span><span class="tag">CatBoost</span></div>
-          <a class="project-link" href="https://www.kaggle.com/sudhanthirapriyas" target="_blank" rel="noopener">Kaggle profile →</a>
+          <img src="assets/Project kaggle addiction.png" alt="Smartphone Addiction Prediction" class="project-img" />
+          <div class="project-content">
+            <p class="project-kicker">Kaggle · Top ~19%</p>
+            <h3>Smartphone Addiction Prediction</h3>
+            <p>ROC-AUC 0.966 using a tuned 3-model gradient boosting ensemble (XGBoost, LightGBM, CatBoost). Ranked 693 of 3,561.</p>
+            <div class="project-tags"><span class="tag">XGBoost</span><span class="tag">LightGBM</span><span class="tag">CatBoost</span></div>
+            <a class="project-link" href="https://www.kaggle.com/sudhanthirapriyas" target="_blank" rel="noopener">Kaggle profile →</a>
+          </div>
         </div>
 
         <div class="project-card">
-          <p class="project-kicker">Academic</p>
-          <h3>Text-to-Image Generation Model</h3>
-          <p>Real-time text-to-image generation using Stable Diffusion for high-fidelity visual content creation.</p>
-          <div class="project-tags"><span class="tag">Stable Diffusion</span></div>
-          <a class="project-link" href="https://su-model.onrender.com/" target="_blank" rel="noopener">Live demo →</a>
+          <img src="assets/project-1.png" alt="Text-to-Image Generation Model" class="project-img" />
+          <div class="project-content">
+            <p class="project-kicker">Academic</p>
+            <h3>Text-to-Image Generation Model</h3>
+            <p>Real-time text-to-image generation using Stable Diffusion for high-fidelity visual content creation.</p>
+            <div class="project-tags"><span class="tag">Stable Diffusion</span></div>
+            <a class="project-link" href="https://su-model.onrender.com/" target="_blank" rel="noopener">Live demo →</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img src="assets/project-2.jpeg" alt="Multiple Eye Disease Detection" class="project-img" />
+          <div class="project-content">
+            <p class="project-kicker">Academic · Computer vision</p>
+            <h3>Multiple Eye Disease Detection</h3>
+            <p>CNN-based model predicting eye conditions from mobile camera images, trained across multiple disease classes.</p>
+            <div class="project-tags"><span class="tag">CNN</span><span class="tag">TensorFlow</span></div>
+            <a class="project-link" href="https://github.com/sudhanthirapriya?tab=repositories" target="_blank" rel="noopener">GitHub →</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img src="assets/covid.png" alt="COVID-19 Detection in Lungs" class="project-img" />
+          <div class="project-content">
+            <p class="project-kicker">Academic · Medical imaging</p>
+            <h3>COVID-19 Detection in Lungs</h3>
+            <p>Image segmentation model to detect COVID-19 indicators in lung scans, isolating affected regions for analysis.</p>
+            <div class="project-tags"><span class="tag">Image Segmentation</span><span class="tag">CNN</span></div>
+            <a class="project-link" href="https://github.com/sudhanthirapriya?tab=repositories" target="_blank" rel="noopener">GitHub →</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img src="assets/project-3.png" alt="Employee Attrition Prediction" class="project-img" />
+          <div class="project-content">
+            <p class="project-kicker">Academic · Tabular ML</p>
+            <h3>Employee Attrition Prediction</h3>
+            <p>Decision Tree model predicting employee attrition risk from HR data to support proactive retention planning.</p>
+            <div class="project-tags"><span class="tag">Decision Tree</span><span class="tag">Scikit-learn</span></div>
+            <a class="project-link" href="https://suc-15.onrender.com/" target="_blank" rel="noopener">Live demo →</a>
+          </div>
         </div>
       </div>
     </section>
@@ -252,7 +303,7 @@
     </section>
 
     <footer>
-      <p>© 2026 Sudhanthirapriya S. All rights reserved.</p>
+      <p>© 2026 Sudhanthirapriya Sundaram. All rights reserved.</p>
     </footer>
     <script src="script.js"></script>
   </body>
